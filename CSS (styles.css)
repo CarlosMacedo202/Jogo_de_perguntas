@@ -1,3 +1,4 @@
+/* Layout geral */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
@@ -11,6 +12,8 @@ h1, #level-title {
   font-size: 2em;
   margin: 20px 0;
 }
+
+/* Container principal */
 #question-container {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -20,15 +23,20 @@ h1, #level-title {
   margin: 20px auto;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* Pergunta */
 #question {
   font-size: 1.5em;
   margin-bottom: 20px;
 }
+
+/* Botões de resposta */
 #answers {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 #answers button {
   background-color: #ffffff;
   color: #333;
@@ -39,10 +47,13 @@ h1, #level-title {
   cursor: pointer;
   transition: transform 0.2s, background-color 0.3s;
 }
+
 #answers button:hover {
   background-color: #ffaf7b;
   transform: scale(1.05);
 }
+
+/* Botão Confirmar */
 #confirm-button {
   margin-top: 20px;
   padding: 12px 20px;
@@ -55,10 +66,13 @@ h1, #level-title {
   transition: background-color 0.3s, transform 0.2s;
   display: none;
 }
+
 #confirm-button:hover {
   background-color: #04b88a;
   transform: scale(1.05);
 }
+
+/* Botão Próxima */
 #next-button {
   margin-top: 20px;
   padding: 12px 20px;
@@ -71,14 +85,19 @@ h1, #level-title {
   display: none;
   transition: background-color 0.3s, transform 0.2s;
 }
+
 #next-button:hover {
   background-color: #ffe28a;
   transform: scale(1.05);
 }
+
+/* Temporizador */
 #timer {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+
+/* Pontuação final */
 #score {
   font-size: 1.3em;
   margin-top: 20px;
