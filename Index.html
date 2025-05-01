@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz de Matemática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz de Matemática</h1>
+    <h2 id="level-title">Nível: Fácil</h2>
+    <p id="timer">Tempo: 10s</p>
+
+    <div id="question-container">
+      <p id="question">Carregando pergunta...</p>
+      <div id="answers"></div>
+    </div>
+
+    <button id="next-button" onclick="nextQuestion()">Próxima</button>
+    <p id="score"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
