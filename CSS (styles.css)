@@ -1,4 +1,4 @@
-/* Layout geral */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
@@ -13,7 +13,7 @@ h1, #level-title {
   margin: 20px 0;
 }
 
-/* Container principal */
+
 #question-container {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -24,13 +24,13 @@ h1, #level-title {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Pergunta */
+
 #question {
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
-/* Botões de resposta */
+
 #answers {
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@ h1, #level-title {
   transform: scale(1.05);
 }
 
-/* Botão Confirmar */
+
 #confirm-button {
   margin-top: 20px;
   padding: 12px 20px;
@@ -72,7 +72,7 @@ h1, #level-title {
   transform: scale(1.05);
 }
 
-/* Botão Próxima */
+
 #next-button {
   margin-top: 20px;
   padding: 12px 20px;
@@ -91,13 +91,12 @@ h1, #level-title {
   transform: scale(1.05);
 }
 
-/* Temporizador */
+
 #timer {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
-/* Pontuação final */
 #score {
   font-size: 1.3em;
   margin-top: 20px;
